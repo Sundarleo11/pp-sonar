@@ -1,0 +1,11 @@
+2022-05-11_22-28-05 [http-nio-5000-exec-2] ERROR c.p.p.e.GlobalExceptionHandler - Not allowed hhhhhhhhhhhhhhhhhh
+2022-05-11_23-14-28 [main] ERROR c.p.p.e.GlobalExceptionHandler - Aadhar Card Number is not Valid. Please check it and try again
+2022-05-11_23-14-28 [main] ERROR c.p.p.e.GlobalExceptionHandler - Invalid pensioner detail provided, please provide valid detail.
+2022-05-11_23-14-28 [main] ERROR c.p.p.e.GlobalExceptionHandler - Missing request header 'Authorization' for method parameter of type String
+2022-05-11_23-14-28 [main] ERROR c.p.p.e.GlobalExceptionHandler - Not allowed AuthorizationException
+2022-05-11_23-14-28 [main] ERROR c.p.p.e.GlobalExceptionHandler - Not allowed AuthorizationException
+2022-05-11_23-15-49 [main] ERROR c.p.p.e.GlobalExceptionHandler - Aadhar Card Number is not Valid. Please check it and try again
+2022-05-11_23-15-49 [main] ERROR c.p.p.e.GlobalExceptionHandler - Invalid pensioner detail provided, please provide valid detail.
+2022-05-11_23-15-49 [main] ERROR c.p.p.e.GlobalExceptionHandler - Missing request header 'Authorization' for method parameter of type String
+2022-05-11_23-15-49 [main] ERROR c.p.p.e.GlobalExceptionHandler - Not allowed AuthorizationException
+2022-05-11_23-15-49 [main] ERROR c.p.p.e.GlobalExceptionHandler - Not allowed AuthorizationException

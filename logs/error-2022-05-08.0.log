@@ -1,0 +1,7 @@
+2022-05-08_18-39-21 [http-nio-8100-exec-9] ERROR c.c.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-05-08_18-39-21 [http-nio-8100-exec-9] ERROR c.c.p.p.e.GlobalExceptionHandler - [404] during [GET] to [http://localhost:8200/pensioner/api/v1/PensionerDetailByAadhaar/110005638947] [PensionerDetailFeignClient#getPensionerDetailByAadhaar(String,long)]: [{"timeStamp":"08-05-2022 07:52:16","status":"NOT_FOUND","message":"Aadhar Card Number is not Valid. Please check it and try again"}]
+2022-05-08_18-39-21 [http-nio-8100-exec-10] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed hhhhhhhhhhhhhhhhhh
+2022-05-08_18-39-21 [http-nio-8100-exec-2] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed hhhhhhhhhhhhhhhhhh
+2022-05-08_18-39-21 [http-nio-8100-exec-4] ERROR c.c.p.p.e.GlobalExceptionHandler - Not allowed hhhhhhhhhhhhhhhhhh
+2022-05-08_20-40-20 [http-nio-8100-exec-9] ERROR c.c.p.p.e.GlobalExceptionHandler - handles by handleFeignStatusException
+2022-05-08_20-40-20 [http-nio-8100-exec-9] ERROR c.c.p.p.e.GlobalExceptionHandler - Connection refused: no further information executing POST http://localhost:8300/disbursement/api/v1/disbursePension

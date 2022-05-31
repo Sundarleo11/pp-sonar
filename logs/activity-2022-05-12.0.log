@@ -1,0 +1,29 @@
+2022-05-12_00-23-42 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-05-12_00-23-42 [restartedMain] INFO  c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 18 on DESKTOP-DAC986Q with PID 11268 (C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice\target\classes started by Elcot in C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice)
+2022-05-12_00-23-42 [restartedMain] INFO  c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ca24e96d-76a4-392e-9b5e-46e5eb3e6d98
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5000 (http)
+2022-05-12_00-23-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-5000"]
+2022-05-12_00-23-42 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-12_00-23-42 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-12_00-23-42 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 14837 ms
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-12_00-23-42 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-12_00-23-42 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-5000"]
+2022-05-12_00-23-42 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5000 (http) with context path '/process'
+2022-05-12_00-23-42 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-05-12_00-23-42 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-05-12_00-23-42 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-05-12_00-23-42 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2022-05-12_00-23-42 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2022-05-12_00-23-42 [restartedMain] INFO  c.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 27.459 seconds (JVM running for 34.473)
+2022-05-12_00-23-42 [http-nio-5000-exec-2] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-12_00-23-42 [http-nio-5000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-12_00-23-42 [http-nio-5000-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms

@@ -1,0 +1,140 @@
+2022-05-10_00-02-39 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-05-10_00-02-39 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 18 on DESKTOP-DAC986Q with PID 9868 (C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice\target\classes started by Elcot in C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice)
+2022-05-10_00-02-39 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1142edd2-2b2c-39aa-b573-8c6b41a17bfb
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-05-10_00-02-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-05-10_00-02-39 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-10_00-02-39 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-10_00-02-39 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 19028 ms
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-10_00-02-39 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-05-10_00-02-39 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
+2022-05-10_00-02-39 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 35.449 seconds (JVM running for 60.899)
+2022-05-10_20-53-05 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 18 on DESKTOP-DAC986Q with PID 12324 (C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice\target\classes started by Elcot in C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice)
+2022-05-10_20-53-05 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-05-10_20-53-05 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1142edd2-2b2c-39aa-b573-8c6b41a17bfb
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-05-10_20-53-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-05-10_20-53-05 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-10_20-53-05 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-10_20-53-05 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 45862 ms
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-10_20-53-05 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-05-10_20-53-05 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
+2022-05-10_20-53-05 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 88.306 seconds (JVM running for 108.657)
+2022-05-10_21-22-26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-05-10_21-22-26 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 18 on DESKTOP-DAC986Q with PID 1680 (C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice\target\classes started by Elcot in C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice)
+2022-05-10_21-22-26 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1142edd2-2b2c-39aa-b573-8c6b41a17bfb
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-05-10_21-22-26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-22-26 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-10_21-22-26 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-10_21-22-26 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 23196 ms
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10_21-23-09 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-10_21-23-09 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 18 on DESKTOP-DAC986Q with PID 11148 (C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice\target\classes started by Elcot in C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice)
+2022-05-10_21-23-09 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-05-10_21-22-26 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-22-26 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10_21-22-26 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 52.058 seconds (JVM running for 62.884)
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1142edd2-2b2c-39aa-b573-8c6b41a17bfb
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 17107 ms
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-23-09 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-23-09 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-10_21-33-01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-05-10_21-33-01 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 18 on DESKTOP-DAC986Q with PID 11660 (C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice\target\classes started by Elcot in C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice)
+2022-05-10_21-33-01 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=1142edd2-2b2c-39aa-b573-8c6b41a17bfb
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-05-10_21-33-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-33-01 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-10_21-33-01 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-10_21-33-01 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 39726 ms
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-10_21-33-01 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-05-10_21-33-01 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
+2022-05-10_21-33-01 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 85.088 seconds (JVM running for 91.753)
+2022-05-10_21-33-01 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10_21-33-01 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-10_21-33-01 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2022-05-10_23-17-00 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 6.1.7.Final
+2022-05-10_23-17-00 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Starting ProcessPensionMicroserviceApplication using Java 18 on DESKTOP-DAC986Q with PID 12208 (C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice\target\classes started by Elcot in C:\Users\Elcot\Downloads\Pension-Management-System\ProcessPension-Microservice)
+2022-05-10_23-17-00 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - No active profile set, falling back to default profiles: default
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=ee7c8c44-f082-348e-96da-0cc14f02ccf0
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.AuthorisingClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionDisbursementFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.cts.pension.process.feignclient.PensionerDetailFeignClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8100 (http)
+2022-05-10_23-17-00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8100"]
+2022-05-10_23-17-00 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-05-10_23-17-00 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-05-10_23-17-00 [restartedMain] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring embedded WebApplicationContext
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 11251 ms
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 2 endpoint(s) beneath base path '/actuator'
+2022-05-10_23-17-00 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-05-10_23-17-00 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8100"]
+2022-05-10_23-17-00 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8100 (http) with context path '/process'
+2022-05-10_23-17-00 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-05-10_23-17-00 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-05-10_23-17-00 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-05-10_23-17-00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_1
+2022-05-10_23-17-00 [restartedMain] INFO  s.d.s.w.r.o.CachingOperationNameGenerator - Generating unique operation named: handleUsingGET_2
+2022-05-10_23-17-00 [restartedMain] INFO  c.c.p.p.ProcessPensionMicroserviceApplication - Started ProcessPensionMicroserviceApplication in 23.41 seconds (JVM running for 28.142)
+2022-05-10_23-17-00 [http-nio-8100-exec-1] INFO  o.a.c.c.C.[.[localhost].[/process] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-10_23-17-00 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-05-10_23-17-00 [http-nio-8100-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms

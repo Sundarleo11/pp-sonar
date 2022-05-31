@@ -1,0 +1,14 @@
+2022-05-10_21-23-09 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8100 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8100 or configure this application to listen on another port.
+
